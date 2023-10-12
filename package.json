@@ -1,0 +1,10 @@
+{
+  "name": "monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "installConfig": {
+    "hoistingLimits": "dependencies"
+  },
+  "packageManager": "yarn@3.6.4"
+}
